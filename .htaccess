@@ -1,0 +1,24 @@
+############################################
+## By default allow all access
+
+    Order allow,deny
+    Allow from all
+
+###########################################
+
+RewriteEngine on
+<IfModule mod_rewrite.c>
+RewriteRule ^choi-game/(.*)$ startgame.php?server=$1
+RewriteRule ^su-kien/(.*)$ cms.php?slug=$1&type=sukien
+RewriteRule ^cam-nang/([^/]+)$ cms.php?slug=$1&type=camnang
+RewriteRule ^tin-tuc/(.*)$ cms.php?slug=$1&type=tintuc
+RewriteRule ^su-kien$ sukien.php
+RewriteRule ^server$ server.php
+RewriteRule ^nap-the$ napthe.php
+RewriteRule ^thoat$ thoat.php
+RewriteRule ^quen-mat-khau$ quenpass.php
+RewriteRule ^thong-tin-tai-khoan$ taikhoan.php
+RewriteRule ^doi-mat-khau$ doipass.php
+RewriteRule ^cam-nang$ camnang.php
+RewriteRule ^tin-tuc$ tintuc.php
+</IfModule>
