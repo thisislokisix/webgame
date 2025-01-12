@@ -1,0 +1,31 @@
+#account{width: 708px;height: 402px; background: url(../images/account/bg-account.png) no-repeat;}
+/*#account { display: block; float: left;}*/
+#account ul {float: left; display: block; height: 10.5%; width: 100%; margin-top: 68px;}
+#account ul li {display: inline-block; vertical-align: top; width: 50%; float: left; text-align: center; height: 100%; line-height: 44px;}
+#account ul li a{width: 100%; height: 100%; display: block; color: #fff; font-weight: bold; text-decoration: none; font-size: 14px; text-indent: -99999px;}
+#account .tab-account {float: left; display: block; width: 35%; height: 85%}
+#account .tab-register{margin-left: 30%;}
+#account .tab-account input {width: 183px;height: 32px; line-height: 32px; border: 1px solid #7c7c7c; outline: none; margin-bottom: 7px; color: #494949; font-size: 13px; padding: 0px 10px; text-indent: 20px;}
+#account .tab-login input{margin-left: 25px;}
+#account .tab-account input.user{background: #fff url(../images/account/user.png) 5px 6px no-repeat; margin-top: 15px;}
+#account .tab-account input.lock{background: #fff url(../images/account/lock.png) 5px 6px no-repeat;}
+#account .tab-account input.email{background: #fff url(../images/account/mail.png) 5px 8px no-repeat;}
+#account .tab-account input.phone{background: #fff url(../images/account/phone.png) 5px 6px no-repeat;}
+#account .tab-account input.chx{width: 13px;height: 13px;margin-top: 8px;float: left;}
+#account .tab-account p.note{color: #b3f0f9; font-size: 13px; float: left; line-height: 28px;width: 200px;margin: 0 0 0 6px;}
+#account .tab-account p.n2{color: #ff2626; font-size: 13px; text-align: center; line-height: 25px; height: 25px; margin: 2px 0px;}
+#account .tab-account p.note a{white-space: nowrap;color: #b3f0f9;}
+#account .tab-account p.note a:hover{color: #0019C2;}
+#account .tab-account p.notice {color: #F70719; font-size: 13px; text-align: center; line-height:20px; padding: 0px 25px;}
+#account .tab-account a.btn_dk{width: 119px;height: 46px;background: url(../images/account/register.jpg) no-repeat; display: block; margin: 3px auto 0px;}
+#account .tab-account a.btn_dk:hover{background: url(../images/account/register-hover.jpg) no-repeat;}
+#account .tab-account a.btn_dn{width: 119px; height: 46px; display: block; margin: 3px auto 0px; background: url(../images/account/login.jpg) no-repeat;}
+#account .tab-account a.btn_dn:hover{background: url(../images/account/login-hover.jpg) no-repeat;}
+#account .tab-account .social{margin: 0 auto;text-align: center;}
+#account .tab-account .social a{display: inline-block;vertical-align: top;zoom: 1; /* Fix for IE7 */*display: inline; /* Fix for IE7 */;width: 30px;height: 30px; margin: 0px 5px;}
+#account .tab-account .social a.fb{background: url(../images/account/fb.png)no-repeat;}
+#account .tab-account .social a.gg{background: url(../images/account/gg.png)no-repeat;}
+#account .tab-account .social a.yh{background: url(../images/account/yh.png)no-repeat;}
+#account .tab-account .social a:hover{background-position: 0px -30px;}
+.q-mk {display: block; font-size: 13px; color: #8d91a4; text-decoration: none; margin-left: 50px; margin-bottom: 7px; width: 105px;}
+.q-mk:hover {color: #C0D251;}
