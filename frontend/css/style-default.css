@@ -1,0 +1,94 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+body, ul, p,h1, h3,h4{margin: 0px; padding: 0px;}
+a{text-decoration: none;}
+input{outline: none; padding: 0px; border:none;}
+li{list-style: none;}
+.clear{clear: both;}
+.content{width: 1000px;margin: 0px auto;}
+.w250{width:250px; float:left;}
+.w500{width:500px; float:left;}
+.line{float:left; width: 100%; height: 1px; background:#3B575B; box-sizing:border-box;}
+.icon-before{background:url("../images/bg-box-head.png") no-repeat; width:30px;height: 30px; margin:5px;float:left;}
+.btn-head{padding:10px; padding-left:28px;background-position:0 5px;}
+.icon-new, .icon-hot{position: absolute;width: 38px;height: 36px; right:-4px; top:-5px;}
+.icon-hot{background:url("../images/icon-hot.png") no-repeat;}
+.icon-new{background:url("../images/icon-new.png") no-repeat;}
+select{border:none; background:#4B7E81;;color:#F1F0F0; font-size:12px;}
+.content:after{content: "."; display: block; width: 0px; height: 0px; clear: both; color: transparent;}
+
+@font-face {
+	font-family: 'Roboto-Regular';
+	src: url('../font/Roboto-Regular.eot');
+	src: local('[Roboto-Regular]'), 
+	url('../font/Roboto-Regular.woff') format('woff'), 
+	url('../font/Roboto-Regular.ttf') format('truetype'), 
+	url('../font/Roboto-Regular.svg') format('svg'),
+	url('../font/Roboto-Regular.otf') format('otf');
+	font-weight: bold;
+}
+
+@font-face {
+	font-family: 'UTM_GodsWord';
+	src: url('../font/UTM_GodsWord.eot');
+	src: local('[UTM_GodsWord]'), 
+	url('../font/UTM_GodsWord.woff') format('woff'), 
+	url('../font/UTM_GodsWord.ttf') format('truetype'), 
+	url('../font/UTM_GodsWord.svg') format('svg'),
+	url('../font/UTM_GodsWord.otf') format('otf');
+	font-weight: bold;
+}
+
+
+.box-head{height:42px; line-height:42px; background:#334C50; color:#D5D9DA; box-sizing:border-box; font-size:13px;
+	font-family: 'UTM_GodsWord'; position: relative; 
+}
+
+.box-login{ float:left;width: 100%;padding-top:10px; }
+.box-login .form-input{float:left;}
+.box-login .form-input input{margin-bottom:1px;background:#4b7e81;height:29px;text-indent:10px; font-size:14px;color:#f1f1f1;}
+.box-login .form-input input:focus{background:#519195;}
+input::-webkit-input-placeholder{color:#BDBDBD;font-size:13px;}
+.box-login .btn-login{float:right;height: 59px;}
+.box-login a.btn-fogot{color:#E2E0E0;text-align:right;width: 100%;font-size:13px;}
+.box-login .openid{width: 100%;float:left; height:25px;background:url("../images/bg-openid.png") no-repeat top right;margin-top:13px;}
+.box-login .openid a{float:right;margin-left:7px;width: 25px;height: 24px; line-height:24px;}
+.box-login .openid label{float:left;height: 24px; line-height:24px;color:#E2E0E0; font-size:12px;}
+
+.server li{display:block;margin:3px 0px;float:right;} 
+.server li a{display:block; line-height:24px; font-size:12px; color:white; background:#177264;text-align:center;float:right;
+	width: 117px;text-transform: capitalize;background:url("../images/btn-sv.png") 1px -160px;
+}
+.server li a:hover{background-position:-117px -160px;}
+
+.box-list-sv{box-sizing:border-box; padding:9px;float:left;}
+.box-list-sv ul.sv-new{float:left;}
+.box-list-sv ul.sv-new li{float:left;margin-right:3px;position: relative;}
+.box-list-sv ul.sv-new li a{width: 130px;height: 40px; background-position:0 -80px;line-height:40px;font-size: 13px;}
+.box-list-sv ul.sv-new li a:hover{background-position:0 -120px;}
+.box-list-sv .btn-group{float:left;width: 209px;margin-top:9px; margin-left: 5px}
+.box-list-sv .btn-group select{float:left;width: 135px; height: 28px;font-size:14px;text-indent:10px;}
+.box-list-sv .btn-group .btn-view{float:right;background-position:0 -185px;}
+.box-list-sv .btn-group .btn:hover{background-position:0 -213px;}
+
+.box-user {box-sizing:border-box; background:url("../images/bg-box-user.png") no-repeat left bottom;float:left; width: 100%; height: 150px;}
+.box-user p{margin:3px 0px; color:#DEDEDE; font-size:15px;}
+.box-user p.username span{ color:#C4BE9D;}
+.box-user p.profile a{ color:#DEDEDE;}
+.box-user p.profile span{ color:white;margin:0px 2px;}
+.his-play {margin-top:15px;}
+.his-play p{text-align:right;margin-bottom:10px;font-size:15px;}
+
+a.btn{display:block; color:white; background:url("../images/btn-sv.png") no-repeat top left;text-align:center;font-family: 'UTM_GodsWord';}
+a.btn-view{line-height:28px; width: 73px;height:28px;font-size:14px;}
+
+.pagination{float:left;width: 100%;margin:9px 0;}
+.pagination li, .pagination a{color:white;height: 20px;width: 20px; line-height:20px;background:#3D6568;margin-right:1px;font-size:11px;float:left;text-align: center;}
+.pagination li:hover,.pagination li.active{color:#181714;background:#E4DAB2;}
+.pagination li:first-child,.pagination li:last-child{color:#7C7E6D;background:#19292F;width: 20px;margin:0 1px;}
+
+.pagination .lst-server {width: 60px;}
+
+/*.pagination{float:left;width: 100%;margin:9px 0;}
+.pagination a{color:white;height: 20px;width: 60px; line-height:20px;background:#3D6568;margin-right:1px;font-size:11px;float:left;text-align: center;}
+.pagination a:hover,.pagination a.active{color:#181714;background:#E4DAB2;}
+.pagination a:first-child,.pagination a:last-child{color:#7C7E6D;background:#19292F;width: 20px;margin:0 1px;}

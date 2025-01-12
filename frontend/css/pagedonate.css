@@ -1,0 +1,88 @@
+.welcome{height: 54px; width: 100%;}
+.welcome ul{height: 100%; width: 100%;}
+.welcome ul li.wc-user{height: 100%; background: url(../images/pagedonate/iconinfo.png) no-repeat center left; color: #c1c1c1; padding-left: 40px; line-height: 54px; float: left;}
+.welcome ul li.wc-user strong{color: yellow;}
+.welcome ul li.history{height: 100%; background: url(../images/pagedonate/iconcalendar.png) no-repeat center left; color: #c1c1c1; padding-left: 40px; line-height: 54px; float: left; margin-left: 30px;}
+.note{height: 104px; width: 630px; color: #848484; border-left: 5px solid #9b0000;}
+.note h6, .note p{padding-left: 30px; line-height: 30px; }
+.note h6{font-size: 16px; color: #fff; border-bottom: 1px dashed #848484;}
+.note p{line-height: 20px; color: #848484;}
+.card-row {width: 100%; height: auto; overflow: hidden; margin: 20px 0 0;}
+.card-row .frm-nap {width: 100%; padding: 0; margin: 0; line-height: 1; border: none;}
+.title-card{height: 34px; line-height: 34px; color: #A0AFB7; text-align: center; font-weight: bold; font-size: 16px; margin-bottom: 10px;}
+.info{height: 46px; width: 630px; border-bottom: 1px solid #000; line-height: 46px; font-weight: bold; font-size: 16px}
+.info-left{width: 380px; float: left; color:#ffd800; padding-left: 20px; height: 46px; line-height: 46px;}
+.info-right{width: 209px; float: left; color:#ffd800; padding-left: 20px;}
+#form_charge{width: 360px; padding-left: 60px; float: left;}
+#form_charge .frm-label {width: 175px; color: #A0AFB7; font-size: 14px;}
+.status-card{width: 230px; float: left;}
+.status-card ul{width: 275px; padding-left: 19px; height: 140px}
+.status-card ul li{font-size:14px;width: 100%; float: left; color: #4C4E48; font-weight: bold; height: 28px; line-height: 28px;}
+.status-card ul li span{float: right; margin-right: 20px;}
+#form_charge .bt-nap{width: 100px; background: #CA2F2F; color: #fff; height: 30px; line-height: 30px; outline: none;}
+#form_charge .bt-nap:hover{background: #fe3c3c}
+.time-st{font-size:12px;color: #570100; padding-left: 20px; margin-top: 80px; border-top: 1px solid #000; height: 40px; line-height: 40px}
+.amount{float: left; margin-left: 100px; width: 530px}
+.bank-name{float: left; padding:0px 0 30px 0}
+.box_donate a.nbblue{
+	color: #03bbea;
+}
+.box_donate a.nbblue:hover{
+	color: #d5bd1c;
+}
+.box_donate .box1{
+	margin-top: 19px;
+	width: 100%;
+	height: 88px;
+	background: #9b0000;
+}
+.box_donate .box1a{
+	margin-left: 5px;
+	height: 100%;
+	background: #fff;
+}
+.frm-nap p {
+	padding: 5px 0px !important;
+}
+.frm-nap select {
+    padding: 5px 0px !important;
+    width: 220px !important;
+    border-radius: 0px !important;
+    outline: none;
+}
+#form_charge {
+	width: 82% !important;
+}
+.frm-nap input[type=text] {
+	border-radius: 0px !important;
+	padding: 5px 5px !important;
+    width: 208px !important;
+    outline: none;
+}
+.bt-nap {
+	margin-left: 0px !important;
+}
+.capcha img#refesh_capcha {
+	width: 190px;
+}
+.status-card {
+	margin-left: 60px;
+}
+.status_card_title {
+	display: block;
+	float: left;
+	font-size: 15px;
+	color: #444;
+	width: 300px;
+	text-transform: uppercase;
+	height: 40px;
+	line-height: 40px;
+}
+.status-card ul {
+	display: block;
+	float: left;
+}
+.ketqua-kiemtra {
+	margin-bottom: 10px;
+	line-height: 30px;
+}

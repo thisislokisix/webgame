@@ -1,0 +1,146 @@
+@charset "utf-8";
+
+.tab_nt{
+	background:#3e4850; 
+	border-bottom: 1px solid #1ba7c1;
+	margin: 14px 0px 14px 31px;
+}
+
+.clear{
+	clear: both;
+}
+.tab_nt ul li{
+	float: left;
+}
+.tab_nt ul li a{
+	color: #809eb6;
+	font-weight: bold;
+	font-size: 12px;
+	text-transform: uppercase;
+	padding: 15px 20px 10px 20px;
+	display: block;
+}
+.tab_nt ul li a:hover,.tab_nt ul li a.active{
+	background: #1ba7c1;
+	color: #FFF;
+}
+h3{
+
+	color: #6d9dc4;
+	font-size: 12px;
+	font-weight:bold;
+
+}
+
+
+.payment_list .info{
+	width: 44%;
+	padding: 10px;
+	float: left;
+	border: 1px solid #e1e6eb;
+}
+.payment_list .info2{
+	float: right;
+}
+
+#wrapper_pmb{
+
+}
+.info2,.info{
+	color: 	#3e4850;
+	font-size: 	12px;
+}
+
+.info2 .title,.info .title{
+	display: 	block;	
+	margin:6px 0px;
+	color: 	#6d9dc4;
+	font-size: 	12px;
+}
+.info select{
+	padding: 5px 10px;
+}
+.bank_list input[type=text]{
+	margin:5px 0px;
+	border:1px solid #CCC;
+	color: 	#333;
+	padding: 3px 4px;
+	width: 	220px;
+}
+.li-method .icon{
+	float: 	left;	
+}
+.li-method .icon img{
+	vertical-align: 	middle;	
+}
+.li-method .title{
+	margin: 7px 10px;
+	float: left;
+	padding-left:15px;
+
+}
+.bank_list li{
+	margin:5px 15px;
+	float: 	left;	
+}
+
+.li-method{
+	margin:10px 0px 10px 0px;
+}
+.info_pg{
+	margin:6px 0px;
+}
+
+.li-method .title{
+	color: #f00;
+	font-weight: bold;
+	font-size:12px;
+}
+.msg_inf,.msg_mg,.msg_infs{
+	padding: 8px 0px;
+	color: red;
+	text-align: center;
+}
+.bank_list li img{
+	padding:3px;
+	width:100%!important;
+}
+.bank_list table td{
+	
+	font-weight:bold;
+}
+.bank_list table tr:first-child td {
+    background: none!important;
+	text-align:left!important;
+}
+
+.bank_list li{
+	width: 45px;
+	height: 35px;
+}
+.bank_list li {
+	width: 57px;
+	height: 35px;
+	height: 51px;
+	text-align: center;
+}
+.bank_list li img:hover{
+	opacity: 1;
+	border:1px solid #E7604A;
+	cursor:pointer;
+}
+.bank_list .img-active{
+	opacity: 1;
+	border:2px solid #E7604A;
+}
+.pm_submit {
+	font-size: 12px !important;
+	width: 140px;
+	height: 30px;
+}
+.bank_list{
+	/* background:#FFF;
+	padding: 	10px;
+	border-radius: 	5px;
+	margin-left: 	20px; */
+}
